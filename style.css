@@ -1,0 +1,96 @@
+/* ### Global Settings ### */
+html, body {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* ### Site Graphics ### */
+#msDazzle {
+    position: absolute;
+    width: 420px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: center;
+}
+
+#msDazzle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -50%);
+}
+
+/* ### Site Text ### */
+@font-face {
+    font-family: 'FashionVictim';
+    src: url('./media/FASHIONVICTIM.TTF') format('truetype');
+}
+
+#centerPlacard {
+    position: absolute;
+    max-width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    z-index: 5;
+}
+
+h1 {
+    font-family: 'FashionVictim';
+    /* font-family: 'Italiana', serif; */ /* Original font choice*/
+    font-size: 2.75rem;    
+    text-align: center;
+    font-weight: normal;
+    color: #63a52a;
+    text-shadow: 
+        3px 3px 10px rgba(221, 175, 74, .2), 
+        3px 3px 10px rgba(221, 175, 74, .2); 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: #6b6b6b;
+}
+
+#email, #email:visited, a, a:visited {
+    color: #6b6b6b;
+}
+
+#email:hover, a:hover {
+    color: #ddaf4a; 
+    font-weight: bold;
+}
+
+/* ### Footer objects ### */
+#copyrightBoxDesktop {
+    border-radius: 25px;
+    min-width: 500px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 49;
+}
+
+span.copyrightDesktop {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 50;
+}
+
