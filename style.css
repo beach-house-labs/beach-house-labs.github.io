@@ -28,7 +28,10 @@ html, body {
 /* ### Site Text ### */
 @font-face {
     font-family: 'FashionVictim';
-    src: url('./media/FASHIONVICTIM.TTF') format('truetype');
+    src: url('./media/FashionVictim.eot');
+    src: url('./media/FashionVictim.ttf') format('truetype'),
+        url('./media/FashionVictim.woff') format('woff'), 
+        url('./media/FashionVictim.woff2') format('woff2');
 }
 
 #centerPlacard {
