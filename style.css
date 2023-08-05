@@ -31,7 +31,17 @@ html, body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 270%);
+    transform: translate(-55px, 270%);
+    z-index: 10;
+}
+
+#HuggingFace {
+    width: 45px; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(9px, 307%);
     z-index: 10;
 }
 
